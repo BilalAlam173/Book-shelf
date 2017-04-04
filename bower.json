@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf",
+  "description": "Personal online bookshelf",
+  "main": "index.html",
+  "authors": [
+    "Bilal Alam"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "valleyforge"
+  ],
+  "homepage": "https://github.com/BilalAlam173/Book-shelf",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
