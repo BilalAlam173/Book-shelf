@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "Virtual Book shelf",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalAlam173/Book-shelf.git"
+  },
+  "author": "Bilal Alam and Shoaib Ghalib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilalAlam173/Book-shelf/issues"
+  },
+  "homepage": "https://github.com/BilalAlam173/Book-shelf#readme"
+}
