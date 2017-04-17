@@ -17,14 +17,14 @@
 </head>
 
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid main-bg">
 		<div >   	<button type="submit" class="btn btn-secondary1">   LOG IN   </button>
-			<button type="submit" class="btn btn-secondary2">    REGISTER    </button>
+			<button type="submit" class="btn btn-secondary2" id="register-btn" >    REGISTER    </button>
 		</div>
 		<div class="top">
 			<h1 id="title" ><span id="logo"> <span>  VIRTUAL BOOK SHELF  </span></span></h1>
 		</div>
-		<div class="login-box animated fadeInUp">
+		<div class="login-box animated fadeInUp" id="login-form">
 			<div class="box-header">
 				<h2>Log In</h2>
 			</div>
@@ -37,6 +37,29 @@
 			<input type="password" id="password">
 			<br/>
 			<button type="submit">Sign In</button>
+			<br/>
+		</div>
+		<div  class="login-box animated fadeInUp" id="register-form">
+			<div class="box-header">
+				<h2>  REGISTER  </h2>
+			</div>
+			<label for="username"> Email Address </label>
+			<br/>
+			<input type="email">
+			<br/>
+			<label for="username">Username</label>
+			<br/>
+			<input type="text" >
+			<br/>
+			<label for="password">Password</label>
+			<br/>
+			<input type="password" >
+			<br/>
+			<label for="password"> Confirm Password </label>
+			<br/>
+			<input type="password">
+			<br/>
+			<button type="submit"> Register Now </button>
 			<br/>
 		</div>
 	</div>
@@ -60,5 +83,4 @@
 		$('label[for="password"]').removeClass('selected');
 	});
 </script>
-
 </html>
