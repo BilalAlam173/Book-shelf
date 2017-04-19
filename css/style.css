@@ -8,7 +8,7 @@ body {
 	color: #666;
 }
 .main-bg{
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.5);
 	height: 100vh;
 }
 .btn-secondary1  {
@@ -172,6 +172,10 @@ p.small {
 .selected {
 	color: #665851!important;
 	transition: 0.5s;
+}
+#register-form{
+	display: none;
+
 }
 
 /* Animation Delay */
