@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/hover-min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -18,36 +19,136 @@
 </head>
 
 <body >
-<div>
-<div class="container-fluid">
-    <div class="row canvas">
-        <div class="col-lg-2 sidebar">
-            <div class="hvr hvr-grow">
-            <div class="navbox ">
-                <a class="navbar-brand navtitle">FAVOURITES</a>
-            </div>
-            </div>
-            <hr>
-            <div class="hvr hvr-grow">
-            <div class="navbox">
-                <a class="navbar-brand navtitle">  BOOKS </a>
-            </div>
-        </div>
-            <hr>
-            <div class="hvr hvr-grow">
-                <div class="navbox ">
-                    <a class="navbar-brand navtitle"> AUTHORS </a>
+    <div>
+        <div class="container-fluid">
+        <div class="row canvas">
+                <div class="animated fadeInLeft col-lg-2 sidebar">
+                    <div class="navbox hvr hvr-underline-from-left">
+                        <a class="navbar-brand navtitle"><span class="fa fa-home"></span> Home</a>
+                    </div>
+                    
+                    <div class="hvr">
+                        <div class="navbox hvr-underline-from-left">
+                            <a class="navbar-brand navtitle"><span class="fa fa-book"></span>  Books </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hvr">
+                        <div class="navbox hvr-underline-from-left">
+                            <a class="navbar-brand navtitle"><span class="fa fa-user-circle-o"></span> Authors </a>
+                        </div>
+                    </div>
+
+                    <div class="hvr ">
+                        <div class="navbox hvr-underline-from-left">
+                            <a class="navbar-brand navtitle"><span class="fa fa-heart-o"></span> Favourites </a>
+                        </div>
+                    </div>
+                    
                 </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-8">
+                    <div class="vertical-gap"></div>
+                    <div class="animated fadeInDown row">
+                        <div class="col-lg-3">
+                            <div class="hvr hvr-float">
+                                <div class="top-shelf"></div>
+                                <div class="top-shelf-edge"></div>
+                                <div class="shelf-background">
+                                    <span class="shelf-name hvr"><a class="nav-link">History</a></span>
+                                </div>
+                                <div class="bottom-shelf"></div>
+                                <div class="bottom-shelf-edge"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="hvr hvr-float">
+                                <div class="top-shelf"></div>
+                                <div class="top-shelf-edge"></div>
+                                <div class="shelf-background">
+                                    <span class="shelf-name hvr"><a class="nav-link">Novels</a></span>
+                                </div>
+                                <div class="bottom-shelf"></div>
+                                <div class="bottom-shelf-edge"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="hvr hvr-float">
+                                <div class="top-shelf"></div>
+                                <div class="top-shelf-edge"></div>
+                                <div class="shelf-background">
+                                    <span class="shelf-name hvr"><a class="nav-link">Biography</a></span>
+                                </div>
+                                <div class="bottom-shelf"></div>
+                                <div class="bottom-shelf-edge"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="hvr hvr-float">
+                                <div class="top-shelf"></div>
+                                <div class="top-shelf-edge"></div>
+                                <div class="shelf-background">
+                                    <span class="shelf-name hvr"><a class="nav-link">Course Books</a></span>
+                                </div>
+                                <div class="bottom-shelf"></div>
+                                <div class="bottom-shelf-edge"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="animated fadeInUp row">
+                            <div class="col-lg-3">
+                                <div class="hvr hvr-float">
+                                    <div class="top-shelf"></div>
+                                    <div class="top-shelf-edge"></div>
+                                    <div class="shelf-background">
+                                        <span class="shelf-name hvr"><a class="nav-link">Proggramming Languages</a></span>
+                                    </div>
+                                    <div class="bottom-shelf"></div>
+                                    <div class="bottom-shelf-edge"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hvr hvr-float">
+                                    <div class="top-shelf"></div>
+                                    <div class="top-shelf-edge"></div>
+                                    <div class="shelf-background">
+                                        <span class="shelf-name hvr"><a class="nav-link">Networking Books</a></span>
+                                    </div>
+                                    <div class="bottom-shelf"></div>
+                                    <div class="bottom-shelf-edge"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="hvr hvr-float">
+                                    <div class="top-shelf"></div>
+                                    <div class="top-shelf-edge"></div>
+                                    <div class="shelf-background">
+                                        <span class="shelf-name hvr"><a class="nav-link">Gifts</a></span>
+                                    </div>
+                                    <div class="bottom-shelf"></div>
+                                    <div class="bottom-shelf-edge"></div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3">
+                                <div class="hvr hvr-grow">
+                                    <div class="top-shelf"></div>
+                                    <div class="top-shelf-edge"></div>
+                                    <div class="shelf-background-new">
+                                        <span class="shelf-name add_shelf"><a class="nav-link">+</a></span>
+                                    </div>
+                                    <div class="bottom-shelf"></div>
+                                    <div class="bottom-shelf-edge"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-1"></div>
             </div>
-            <hr>
-        </div>
-
-
-        <div class="col-lg-10"></div>
-    </div>
-    <div type="button" class="btn btn-default box">
+   <!-- <div type="button" class="btn btn-default box">
         <span class="glyphicon glyphicon-plus" style="font-weight: bolder; font-size: xx-large;"></span>
-    </div>
+    </div>-->
+
 
 </div>
 </div>

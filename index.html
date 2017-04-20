@@ -18,28 +18,32 @@
 
 <body >
 	<div class="container-fluid main-bg">
-		<div  class="pull-right" style="margin-top: 20px">   	<button type="submit" class="btn btn-default" id="login-btn">   LOG IN   </button>
-			<button type="submit" class="btn btn-default" id="register-btn" >    REGISTER    </button>
-		</div>
-		<div class="top" style="margin-top:  -75px;">
-			<h1 id="title" ><span id="logo"> <span>  VIRTUAL BOOK SHELF  </span></span></h1>
-		</div>
-		<div class="login-box animated fadeInUp" id="login-form">
-			<div class="box-header">
-				<h2>Log In</h2>
-			</div>
-			<label for="name">Username</label>
-			<br/>
-			<input type="text" id="name" >
-			<br/>
-			<label for="pwd">Password</label>
-			<br/>
-			<input type="password" id="pwd"  >
-			<br/>
-			<button type="submit">Sign In</button>
-			<br/>
-		</div>
-		<div  class="register-box animated fadeInUp" id="register-form">
+
+		<div class="row">
+		<div class="top">
+					<h1 id="title" ><span id="logo"> VIRTUAL BOOK SHELF</span></h1>
+				</div>
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div class="login-box animated fadeInUp" id="login-form">
+					<div class="box-header">
+						<h2>Log In</h2>
+					</div>
+					<label for="name">Username</label>
+					<br/>
+					<input type="text" id="name" >
+					<br/>
+					<label for="pwd">Password</label>
+					<br/>
+					<input type="password" id="pwd"  >
+					<br/>
+					<button type="submit">Sign In</button>
+					<button id="register-btn">REGISTER</button>
+					<br/>
+
+				</div>
+
+				<div  class="register-box animated fadeInUp" id="register-form">
 			<div class="box-header">
 				<h2>  REGISTER  </h2>
 			</div>
@@ -60,7 +64,12 @@
 			<input type="password" id="confirm-pwd">
 			<br/>
 			<button type="submit"> Register Now </button>
+			<button id="login-btn">LOG IN</button>
 			<br/>
+		</div>
+
+			</div>
+			<div class="col-lg-4"></div>
 		</div>
 	</div>
 </body>
