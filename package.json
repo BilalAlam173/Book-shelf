@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BilalAlam173/Book-shelf/issues"
   },
-  "homepage": "https://github.com/BilalAlam173/Book-shelf#readme"
+  "homepage": "https://github.com/BilalAlam173/Book-shelf#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
